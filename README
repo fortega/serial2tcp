@@ -1,3 +1,8 @@
-This app read data from a serial port and write it in a socket.
+Build using NetBeans 
+Require:
+* Java 1.8
+* JSSC: https://github.com/scream3r/java-simple-serial-connector
+
+Reads data from a serial port and write it in a socket.
 Allow multiclients to read/write.
-PS: to authenticate/encrypt data, use IPSec.
+PS: data is write in plain text. To add a security layer, use IPSec.
